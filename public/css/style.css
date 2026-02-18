@@ -5,7 +5,7 @@ body{
     min-height: 100vh;
 }
 
-.container{
+.conatiner{
     flex:1;
 }
 
@@ -59,11 +59,11 @@ body{
     width: 100%;
 }
 
-/*card*/
 .heading{
-    margin-left: 8rem;
+    margin-left:8rem;
 }
-.card{
+/*card*/
+.listing-card{
     border:none !important;
     margin-bottom:2rem;
 }
@@ -78,7 +78,7 @@ body{
     padding:0 !important;
 }
 
-.card-text{
+.card-text p{
     font-weight: 400;
 }
 
@@ -87,7 +87,7 @@ body{
 }
 
 /*card-effect*/
-.card-img-overlay{
+.crad-img-overlay{
     opacity:0;
 }
 
