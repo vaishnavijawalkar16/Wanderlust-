@@ -9,7 +9,7 @@ main().then((res)=>{
 });
 
 async function main() {
-    await mongoose.connect("mongodb+srv://VaishnaviJawalkar:vishclara1634@cluster0.cnxqddp.mongodb.net/Wanderlust?appName=Cluster0")
+    await mongoose.connect("")
 }
 
 const initDB = async() =>{
