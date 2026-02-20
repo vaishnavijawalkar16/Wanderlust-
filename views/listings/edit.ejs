@@ -6,7 +6,7 @@
     <form action="/listings/<%= listing.id %>?_method=PUT" method="post">
       <div class="mb-3">
         <label for="title" class="form-label">Title</label>
-        <input type="text" name="listing[title]" value="<%= listing.title %>" class="container" required/>
+        <input type="text" name="listing[title]" value="<%= listing.title %>" class="form-control" required/>
         <div class="invalid-feedback">Please enter a valid Title.</div>
       </div>
 
@@ -16,7 +16,7 @@
         type="text"
         name="listing[description]"
         value="<%= listing.description %>"
-        class="container"
+        class="form-control"
         required
         />
         <div class="invalid-feedback">Please enter a valid Description.</div>
@@ -25,7 +25,7 @@
       <div class="row">
       <div class="mb-3 col-4">
         <label for="Price" class="form-label">Price</label>
-        <input type="number" name="listing[price]" value="<%= listing.price %>" class="container" required/>
+        <input type="number" name="listing[price]" value="<%= listing.price %>" class="form-control" required/>
         <div class="invalid-feedback">Please enter a valid Price.</div>
       </div>
 
@@ -35,7 +35,7 @@
         type="text"
         name="listing[location]"
         value="<%= listing.location %>"
-        class="container"
+        class="form-control"
         required
         />
         <div class="invalid-feedback">Please enter a valid Location</div>
@@ -48,7 +48,7 @@
         type="text"
         name="listing[country]"
         value="<%= listing.country %>"
-        class="container"
+        class="form-control"
         required
         />
         <div class="invalid-feedback">Please enter a valid country.</div>
